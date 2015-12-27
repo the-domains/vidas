@@ -1,0 +1,14 @@
+layout_spectrum: 0.9247312
+typography_spectrum: 0.688172
+color:
+  saturation: 0.9850003
+  lightness: 0.2148617
+  brandStrength: 0.7055541
+  brandColors:
+    - '#0B0C0F'
+    - '#E8D7AC'
+    - '#9B8765'
+    - '#1DD253'
+    - '#993A39'
+  rhythmicContrast: 0.9089096
+name: Vidas
