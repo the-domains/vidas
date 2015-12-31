@@ -1,28 +1,40 @@
-name: Vidas
 favicon: null
-layout_spectrum: 0.41528
-typography_spectrum: 0.688172
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Vidas
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.75
+  brandStrength: 0.7055541
+  rhythmicContrast: 0.5
   brandColors:
     - '#eff4f7'
     - '#785b3d'
     - '#adb6b1'
     - '#341409'
     - '#fed09c'
-  brandStrength: 0.7055541
   lightness: 0.25
-  saturation: 0.75
-  rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 0.688172
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
